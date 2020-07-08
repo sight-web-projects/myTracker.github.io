@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "myTracker"
+    }
+  },
+  "defaultProject": "myTracker",
+  "cli": {
+    "analytics": "043f76c9-9c92-4702-82a1-8e5c250ace21"
+  }
 }
