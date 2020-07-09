@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FaithComponent } from './faith.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [FaithComponent],
   imports: [
     CommonModule
   ]
