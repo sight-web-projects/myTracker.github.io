@@ -10,21 +10,23 @@ import { FinanceModule } from './finance/finance.module';
 import { ReadingModule } from './reading/reading.module';
 import { FamilyModule } from './family/family.module';
 import { FriendsModule } from './friends/friends.module';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     LearningModule,
     FaithModule,
     ProjectsModule,
     FinanceModule,
     ReadingModule,
     FamilyModule,
-    FriendsModule
+    FriendsModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
